@@ -32,13 +32,12 @@ struct MainView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Mexico City")
-                .font(.system(size: 45, weight: .bold))
+                .font(.custom("Bebas Neue", size: 60))
                 .padding(.bottom, 0)
             Text("20°")
-                .font(.system(size: 55))
+                .font(.custom("Roboto-Bold", size: 50))
         }
         .padding(.leading, -90)
-        
     }
 }
 
